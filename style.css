@@ -29,3 +29,81 @@
     border: 2px solid blue;
     width: 600px;
 }
+
+
+/* Excercise.html Begins  */
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.box2{
+    border: 5px solid ;
+}
+.box-inl{
+    display: inline-block;
+}
+.box3{
+    border: 5px solid rgb(52, 50, 50) ;
+}
+.box4{
+    border: 5px dashed rgb(52, 50, 50);
+}
+.box5{
+    border: 5px dotted rgb(52, 50, 50);
+}
+.box6{
+    border-top:5px solid blue;
+    border-right: 5px solid gray;
+    border-bottom: 5px solid yellow;
+    border-left: 5px solid green;
+    box-shadow: 0 0 0 8px violet;
+}
+
+/* Excercise.html Ends  */
+
+
+/* Exercise2.html begins */
+.main{
+    display: flex;
+}
+.box11{
+    width: 50%;
+    background-color: rgb(253, 91, 105);
+}
+.box12{
+    width: 25%;
+    background-color: rgb(30, 52, 30);
+}
+.box13{
+    width: 25%;
+    background-color: violet;
+}
+.box21{
+    width: 25%;
+    background-color: skyblue;
+}
+.box22{
+    width: 50%;
+    background-color: lightgreen;
+}
+.box23{
+    width: 25%;
+    background-color: green;
+}
+.box31{
+    width: 25%;
+    background-color: yellow;
+}
+.box32{
+    width: 25%;
+    background-color: rgb(194, 164, 42);
+}
+.box33{
+    width: 50%;
+    background-color: red;
+}
