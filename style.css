@@ -1,0 +1,31 @@
+.box1{
+    background-color: red;
+    padding: 24px;
+    margin: 24px;
+    /* display: inline-block; */
+    box-sizing: border-box;
+    width: 100%;
+}
+.boxes{
+    border:  1px solid red;
+    width: 30%;
+    height: 300px;
+    display: inline-block;  
+    /* Margin */
+    margin: 24px;/* All Side */
+    margin: 0px 24px 0px 24px; /* top right bottom left */
+    margin: 0px 24px; /* top right bottom left */
+    margin: 12px 50px 24px; /* top leftright bottom */
+    margin-top: 8px;
+    margin-left: 0;
+    margin-right: 12px;
+    margin-bottom: 35px;
+    padding: 24px;
+    
+    box-sizing: border-box;
+}
+
+.parent{
+    border: 2px solid blue;
+    width: 600px;
+}
