@@ -68,42 +68,47 @@
 
 
 /* Exercise2.html begins */
-.main{
-    display: flex;
+.box11,
+.box22,
+.box33{
+    width: 500px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.box12, 
+.box13,
+.box21, 
+.box23,
+.box31,
+.box32{
+    width: 200px;
+    display: inline-block;
+    box-sizing: border-box;
 }
 .box11{
-    width: 50%;
     background-color: rgb(253, 91, 105);
 }
 .box12{
-    width: 25%;
     background-color: rgb(30, 52, 30);
 }
 .box13{
-    width: 25%;
     background-color: violet;
 }
 .box21{
-    width: 25%;
     background-color: skyblue;
 }
 .box22{
-    width: 50%;
     background-color: lightgreen;
 }
 .box23{
-    width: 25%;
     background-color: green;
 }
 .box31{
-    width: 25%;
     background-color: yellow;
 }
 .box32{
-    width: 25%;
     background-color: rgb(194, 164, 42);
 }
 .box33{
-    width: 50%;
     background-color: red;
 }
